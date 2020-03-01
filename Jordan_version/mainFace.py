@@ -74,7 +74,7 @@ while 1:
                     cv2.putText(img, 'Eyes Detected',bottomLeftCornerOfText,font,fontScale,(0,255,0),lineType)
 
                 if countEyesClosed >= 150:
-                    playsound('audio2.mp3')
+                    playsound('audio3.mp3')
                     countEyesClosed = 0
 
             cv2.imshow('img',img)
