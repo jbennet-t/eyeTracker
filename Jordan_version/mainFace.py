@@ -73,7 +73,7 @@ while 1:
                     # serialcom1(0)
                     cv2.putText(img, 'Eyes Detected',bottomLeftCornerOfText,font,fontScale,(0,255,0),lineType)
 
-                if countEyesClosed >= 150:
+                if countEyesClosed >= 50:
                     playsound('audio3.mp3')
                     countEyesClosed = 0
 
